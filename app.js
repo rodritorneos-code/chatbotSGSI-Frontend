@@ -1,7 +1,7 @@
 // ======================================================
 // CONFIG
 // ======================================================
-const API_URL = "https://comparisons-true-map-nasa.trycloudflare.com/chat";
+const API_URL = "https://spec-void-coordinator-leader.trycloudflare.com/chat";
 
 // Chat elements
 const chatBox = document.getElementById("chat-box");

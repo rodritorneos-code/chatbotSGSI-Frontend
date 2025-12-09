@@ -1,7 +1,7 @@
 // ======================================================
 // CONFIG
 // ======================================================
-const API_URL = "http://localhost:8000/chat";
+const API_URL = "https://tamil-patent-sailing-lovely.trycloudflare.com/chat";
 
 // Chat elements
 const chatBox = document.getElementById("chat-box");
@@ -212,14 +212,23 @@ audioBtn.addEventListener("click", () => {
 });
 
 function updateAudioButton() {
-    if (sessionStorage.getItem("audioEnabled") === "true") {
-        audioBtn.textContent = "🔊 Audio ON";
+    const enabled = sessionStorage.getItem("audioEnabled") === "true";
+
+    if (enabled) {
+        audioBtn.innerHTML = `
+            <span class="material-symbols-outlined text-lg">volume_up</span>
+            Audio ON
+        `;
         audioBtn.classList.remove("opacity-50");
     } else {
-        audioBtn.textContent = "🔇 Audio OFF";
+        audioBtn.innerHTML = `
+            <span class="material-symbols-outlined text-lg">volume_off</span>
+            Audio OFF
+        `;
         audioBtn.classList.add("opacity-50");
     }
 }
+
 
 // ======================================================
 // AVATAR TOGGLE

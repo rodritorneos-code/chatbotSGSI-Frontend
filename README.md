@@ -57,12 +57,18 @@ Crédito: https://x.com/GaboAsies_Bv
 ---
 
 ## 📈 Características Técnicas
-#### HTML + JavaScript puro, ligero y rápido
-#### Comunicación con backend vía API REST
-#### Configurable para backend local o remoto
-#### Despliegue sencillo en Vercel
-#### Compatible con navegadores modernos
-#### Integración de avatar gráfico y mensajes dinámicos
+
+✔ HTML + JavaScript puro, ligero y rápido
+
+✔ Comunicación con backend vía API REST
+
+✔ Configurable para backend local o remoto
+
+✔ Despliegue sencillo en Vercel
+
+✔ Compatible con navegadores modernos
+
+✔ Integración de avatar gráfico y mensajes dinámicos
 
 ---
 

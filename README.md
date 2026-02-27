@@ -22,10 +22,12 @@ audio = new Audio("http://localhost:8000" + data.audio_url);
 ---
 
 ## 2️⃣ Ejecutar frontend local
-Usando Python para levantar un servidor local:
+### Usando Python para levantar un servidor local:
+
 python -m http.server 5500
 
-Abrir en el navegador:
+### Abrir en el navegador:
+
 http://localhost:5500
 
 ✅ Comentario: Esto sirve para pruebas locales antes de desplegar en Vercel.
@@ -33,7 +35,7 @@ http://localhost:5500
 ---
 
 ## 3️⃣ Despliegue en Vercel
-Pasos:
+### Pasos:
 
 Crear cuenta en Vercel si no tienes.
 
@@ -65,15 +67,18 @@ Crédito: https://x.com/GaboAsies_Bv
 ---
 
 ## 🔧 Verificación del Frontend
-Abrir http://localhost:5500 en el navegador
-Revisar la consola de JavaScript para errores de conexión con el backend
-Asegurarse de que el backend esté corriendo y la URL sea correcta
+Abrir http://localhost:5500 en el navegador.
+
+Revisar la consola de JavaScript para errores de conexión con el backend.
+
+Asegurarse de que el backend esté corriendo y la URL sea correcta.
 
 ---
 
 ## 📜 Licencia
 
-Código bajo licencia MIT
+Código bajo **licencia MIT**.
+
 El avatar y recursos gráficos cuentan con permisos de su autor original.
 
 ---

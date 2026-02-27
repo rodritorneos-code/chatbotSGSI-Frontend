@@ -9,19 +9,22 @@
 # ⚙ Instalación
 
 ## 1️⃣ Configurar URL del Backend
-### Edita el archivo `config.js` o la variable que define la URL de la API:
+### Edita el archivo `app.js`:
 
-// config.js
-const BACKEND_URL = "http://127.0.0.1:8000"; // Cambiar por la URL pública de Cloudflared si se usa backend remoto
-💡 Nota: Si usas el backend con Cloudflared, reemplaza esta URL por la proporcionada por el túnel.
+// app.js
+const API_URL = "http://localhost:8000/chat";
+
+audio = new Audio("http://localhost:8000" + data.audio_url); 
+
+💡 Nota: Si usas el backend con Cloudflared, reemplaza "http://localhost:8000" por la URL proporcionada por el túnel.
 
 ---
 
 ## 2️⃣ Ejecutar frontend local
 Usando Python para levantar un servidor local:
 python -m http.server 5500
-Abrir en el navegador:
 
+Abrir en el navegador:
 http://localhost:5500
 
 ✅ Comentario: Esto sirve para pruebas locales antes de desplegar en Vercel.
@@ -31,8 +34,7 @@ http://localhost:5500
 ## 3️⃣ Despliegue en Vercel
 Pasos:
 
-Crear cuenta en Vercel
- si no tienes.
+Crear cuenta en Vercel si no tienes.
 
 Conectar el repositorio del frontend a Vercel.
 
@@ -43,9 +45,9 @@ Desplegar y obtener la URL pública del frontend.
 ---
 
 ## 🖼 Integración del Avatar
-#### El avatar fue diseñado por un colaborador externo.
-##### Crédito: https://x.com/GaboAsies_Bv
-#### 💡 Nota: Mantener los créditos visibles si se reutiliza o publica el frontend.
+El avatar fue diseñado por un colaborador externo.
+Crédito: https://x.com/GaboAsies_Bv
+💡 Nota: Mantener los créditos visibles si se reutiliza o publica el frontend.
 
 ---
 
@@ -60,9 +62,9 @@ Desplegar y obtener la URL pública del frontend.
 ---
 
 ## 🔧 Verificación del Frontend
-#### Abrir http://localhost:5500 en el navegador
-#### Revisar la consola de JavaScript para errores de conexión con el backend
-#### Asegurarse de que el backend esté corriendo y la URL sea correcta
+Abrir http://localhost:5500 en el navegador
+Revisar la consola de JavaScript para errores de conexión con el backend
+Asegurarse de que el backend esté corriendo y la URL sea correcta
 
 ---
 

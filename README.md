@@ -12,6 +12,7 @@
 ### Edita el archivo `app.js`:
 
 // app.js
+
 const API_URL = "http://localhost:8000/chat";
 
 audio = new Audio("http://localhost:8000" + data.audio_url); 

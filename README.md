@@ -83,5 +83,6 @@ El avatar y recursos gráficos cuentan con permisos de su autor original.
 
 ---
 
-👨‍💻 Autor
+## 👨‍💻 Autor
+
 Rodrigo Alexander Pinto Niño

@@ -46,7 +46,9 @@ Desplegar y obtener la URL pública del frontend.
 
 ## 🖼 Integración del Avatar
 El avatar fue diseñado por un colaborador externo.
+
 Crédito: https://x.com/GaboAsies_Bv
+
 💡 Nota: Mantener los créditos visibles si se reutiliza o publica el frontend.
 
 ---

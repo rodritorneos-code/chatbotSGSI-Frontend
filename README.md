@@ -1,8 +1,16 @@
 # 🎨 Frontend – Chatbot SGSI
 
-#### Frontend del **Chatbot SGSI**, diseñado para interactuar con el backend y permitir al usuario enviar consultas al modelo LLM.  
-#### Desarrollado en **HTML + JavaScript**, con consumo de API vía HTTP y despliegue en **Vercel**.  
-#### Soporta conexión con backend local o mediante URL pública generada con **Cloudflared**.
+Frontend del **Chatbot SGSI**, diseñado para interactuar con el backend y permitir al usuario enviar consultas al modelo LLM.  
+Desarrollado en **HTML + JavaScript**, con consumo de API vía HTTP y despliegue en **Vercel**.  
+Soporta conexión con backend local o mediante URL pública generada con **Cloudflared**.
+
+---
+
+## 🖼 Vista del Sistema en Funcionamiento
+
+<p align="center">
+  <img src="assets/frontend_demo.jpeg" alt="Chatbot SGSI - Interfaz en Funcionamiento" width="900"/>
+</p>
 
 ---
 

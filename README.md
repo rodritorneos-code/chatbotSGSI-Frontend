@@ -9,7 +9,11 @@ Soporta conexión con backend local o mediante URL pública generada con **Cloud
 ## 🖼 Vista del Sistema en Funcionamiento
 
 <p align="center">
-  <img src="assets/frontend.jpeg" alt="Chatbot SGSI - Interfaz en Funcionamiento" width="700"/>
+  <img src="assets/frontend_1.jpeg" alt="Chatbot SGSI - Vista General" width="500"/>
+</p>
+
+<p align="center">
+  <img src="assets/frontend_2.jpeg" alt="Chatbot SGSI - Conversación en Ejecución" width="500"/>
 </p>
 
 ---
